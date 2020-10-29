@@ -1,0 +1,24 @@
+{
+  "name": "VinajuWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiranjiviNeupane/dibyapuri"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://chiranjiviNeupane.github.io/dibyapuri"
+  "bugs": {
+    "url": "https://github.com/chiranjiviNeupane/dibyapuri/issues"
+  },
+  "homepage": "https://github.com/chiranjiviNeupane/dibyapuri#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
