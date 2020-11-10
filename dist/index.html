@@ -7,11 +7,7 @@ body, html {
 }
 
 .bgimg {
-  /* background-image: url('test.png');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative; */
+
   background-color: white;
   color: #ff1a1a;
   font-family: "Courier New", Courier, monospace;
@@ -20,7 +16,7 @@ body, html {
 
 .topleft {
   position: absolute;
-  top: 0;
+  top: 5;
   left: 16px;
 }
 
@@ -72,17 +68,66 @@ hr {
   background: #125688;
   color: white;
 }
+
+/* nav css starts */
+/* body {margin: 0;} */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e76f51;
+}
+
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: black;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+/* nav css ends */
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
+  <ul class="topnav">
+  <li><a class="active" href="#home">गृहपृष्ठ</a></li>
+  <li><a href="#news">समाचार</a></li>
+  <li><a href="#contact">विचार</a></li>
+  <li><a href="#contact">अन्र्तवार्ता</a></li>
+  <li><a href="#contact">कार्यक्रम</a></li>
+  <li><a href="#contact">तश्विर</a></li>
+  <li><a href="#contact">लाइभ</a></li>
+  <li><a href="#contact">जिवनशैली</a></li>
+  <li><a href="#contact">अन्र्तराष्ट्रिय</a></li>
+  <li><a href="#contact">भिडियो</a></li>
+  <li><a href="#contact">वाणी</a></li>
+  <li><a href="#contact">विविध</a></li>
+  <!-- <li class="right"><a href="#about">About</a></li> -->
+</ul>
 
 <div class="bgimg">
   <div class="topleft">
-     <img src="logo.jpg" alt="Girl in a jacket" style="width:100%;height:200px;">
+     <img src="logo.jpg" alt="logo" style="width:100%;height:200px;">
   </div>
   <div class="middle">
-    <h1>WEBSITE IS UNDER CONSTRUCTION</h1>
-    <h2>WE WILL BE LIVE SOON!</h2>
+    <h1><b>धर्म, संस्कृति र अध्यात्मको त्रिवेण</b></h1>
+    <h3>दिव्यपुरी आध्यात्मिक केन्द्रबाट सञ्चालित</h3>
     <hr>
     <p>Connect with us on social media</p>
     <a href="https://www.facebook.com/dibya.puri.3194/" class="fa fa-facebook"></a>
